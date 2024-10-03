@@ -26,13 +26,13 @@ Install all dependencies using pip. It's recommended to create a virtual environ
 a. Create a virtual environment (optional but recommended):
 For macOS/Linux:
 ```bash
-    python3 -m venv env
-    source env/bin/activate
+python3 -m venv env
+source env/bin/activate
 ```
 For Windows:
 ```bash
-    python -m venv env
-    env\Scripts\activate
+python -m venv env
+env\Scripts\activate
 ```
 
 b. Install the required packages:
