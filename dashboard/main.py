@@ -10,8 +10,8 @@ st.title("Bike Sharing Analysis Dashboard")
 st.write("This dashboard provides insights into bike sharing data, exploring factors that affect bike rentals and usage patterns.")
 
 # Load data
-df_hour = pd.read_csv("../data/hour.csv")
-df_day = pd.read_csv("../data/day.csv")
+df_hour = pd.read_csv("hour.csv")
+df_day = pd.read_csv("day.csv")
 
 # Show dataset information
 st.header("Data Overview")
