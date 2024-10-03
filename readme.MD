@@ -45,7 +45,8 @@ Running the App
 To run the Streamlit app, execute the following command in your terminal:
 
 ```bash
-streamlit run app.py
+cd dashboard
+streamlit run main.py
 ```
 Usage
 
