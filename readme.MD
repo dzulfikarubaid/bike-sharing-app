@@ -24,13 +24,12 @@ cd bike-sharing-app
 Install all dependencies using pip. It's recommended to create a virtual environment first.
 
 a. Create a virtual environment (optional but recommended):
-
-    For macOS/Linux:
+For macOS/Linux:
 ```bash
     python3 -m venv env
     source env/bin/activate
 ```
-    For Windows:
+For Windows:
 ```bash
     python -m venv env
     env\Scripts\activate
