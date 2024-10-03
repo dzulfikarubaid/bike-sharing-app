@@ -16,5 +16,52 @@ To run this Streamlit app, you'll need to have Python installed along with sever
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repository-url>
-cd <your-repository-directory>
+git clone https://github.com/dzulfikarubaid/bike-sharing-app.git
+cd bike-sharing-app
+```
+### 2. Install the Required Packages
+
+Install all dependencies using pip. It's recommended to create a virtual environment first.
+
+a. Create a virtual environment (optional but recommended):
+
+    For macOS/Linux:
+```bash
+    python3 -m venv env
+    source env/bin/activate
+```
+    For Windows:
+```bash
+    python -m venv env
+    env\Scripts\activate
+```
+
+b. Install the required packages:
+```bash
+pip install -r requirements.txt
+```
+
+Running the App
+
+To run the Streamlit app, execute the following command in your terminal:
+
+```bash
+streamlit run app.py
+```
+Usage
+
+Once the app is running, open your web browser and go to the URL displayed in your terminal (usually http://localhost:8501). You can then interact with the dashboard to explore the bike sharing data.
+
+Project Structure
+
+- dashboard/main.py: The main Streamlit application file.
+- requirements.txt: Contains a list of required packages.
+- data/: Directory containing the dataset files 
+
+Contact
+
+If you have any questions or suggestions, feel free to contact me:
+
+- Name: Ahmad Dzulfikar Ubaidillah
+- Email: dzulfikarubaid@gmail.com
+- ID Dicoding: dzulfikarubaid
